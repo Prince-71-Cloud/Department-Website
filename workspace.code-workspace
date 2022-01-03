@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+:root{
+    --back: #1A1A1D; 
+    --navbar: #4E4E50;
+    --txt : 'Playfair Display',serif;
+}
+
+body{
+    background-color: var(--back);
+}
+header{
+    font-family: var(--txt);
+    margin: 0 auto;
+    padding: 5rem 3rem;
+    text-align: center;
+    background: #555;
+    display:flex;
+}
+div.container {
+    font-family: var(--txt);
+    margin: 0;
+    padding: 10rem 3rem;
+    text-align: center;
+}
+div.container a{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px var(--txt);
+    margin: 0px 2x;
+    padding: 10px 2px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+div.container a ul{
+    text-decoration: none;
+    display: inline-block;
+
+}
+/* div.container a:before{
+    position:absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    content:"";
+    opacity: 0;
+    transition: all 0.3s;
+} */
